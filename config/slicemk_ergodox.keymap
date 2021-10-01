@@ -15,10 +15,10 @@
     &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp APOS
     &kp LCTRL  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp PGDN   &kp PGUP   &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &kp BSLH
     &none      &kp LALT   &kp LGUI   &kp LARW   &kp RARW                                               &kp DARW   &kp UARW   &kp RGUI   &kp RALT   &kp PRSC
-                                                           &kp DEL    &kp F7     &kp F10    &kp DEL
-                                                                      &kp F8     &kp F11
-                                                &kp LSHFT  &kp RET                          &kp BSPC   &kp SPACE
+                                                           &kp F7     &kp F8     &kp F11    &kp F10
                                                                       &kp F9     &kp F12
+                                                &kp SPACE  &kp BSPC                         &kp RET    &kp LSHFT 
+                                                                      &kp DEL    &kp DEL
                         >;
                 };
 
