@@ -10,14 +10,14 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp GRAV   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &none      &none      &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp MINS
-    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp LBKT   &kp RBKT   &kp Y      &kp U      &kp I      &kp O      &kp P      &kp EQL
-    &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp QUOT
-    &kp LCTL   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp PGDN   &kp PGUP   &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &kp BSLH
-    &kp F13    &kp LALT   &kp LGUI   &kp LARW   &kp RARW                                               &kp DARW   &kp UARW   &kp RGUI   &kp RALT   &kp F13
+    &kp GRAV   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &none      &none      &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp MINUS
+    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp LBKT   &kp RBKT   &kp Y      &kp U      &kp I      &kp O      &kp P      &kp EQUAL
+    &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp APOS
+    &kp LCTRL  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp PGDN   &kp PGUP   &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &kp BSLH
+    &none      &kp LALT   &kp LGUI   &kp LARW   &kp RARW                                               &kp DARW   &kp UARW   &kp RGUI   &kp RALT   &kp PRSC
                                                            &kp DEL    &kp F7     &kp F10    &kp DEL
                                                                       &kp F8     &kp F11
-                                                &kp LSFT   &kp RET                          &kp BKSP   &kp SPC
+                                                &kp LSHFT  &kp RET                          &kp BSPC   &kp SPACE
                                                                       &kp F9     &kp F12
                         >;
                 };
@@ -43,7 +43,7 @@
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 0
     &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 1
     &none      &none      &none      &none      &none      &none                            &none      &none      &none      &none      &none      &bt BT_SEL 2
-    &none      &none      &none      &kp LBKT   &kp RBKT   &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 3
+    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_SEL 3
     &none      &none      &none      &none      &none                                                  &none      &none      &none      &none      &bt BT_SEL 4
                                                            &none      &none      &none      &none
                                                                       &none      &none
