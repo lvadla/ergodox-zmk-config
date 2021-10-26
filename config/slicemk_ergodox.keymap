@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &lt {
-        quick_tap_ms = <75>;
         tapping-term-ms = <125>;
 };
 
@@ -14,8 +13,8 @@
                 compatible = "zmk,behavior-hold-tap";
                 label = "HOMEROW_MODS";
                 #binding-cells = <2>;
-                tapping-term-ms = <125>;
-                quick-tap-ms = <125>;
+                tapping-term-ms = <200>;
+                quick-tap-ms = <200>;
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
             };
@@ -32,10 +31,10 @@
     &kp ESC         &kp A      &hm LCTRL S &hm LALT D &hm LGUI F &kp G                            &kp H      &hm RGUI J &hm RALT K &hm RCTRL L &kp SEMI   &kp APOS
     &kp LCTRL       &kp Z      &kp X       &kp C      &kp V      &kp B      &kp PGUP   &kp PGDN   &kp N      &kp M      &kp CMMA   &kp DOT     &kp FSLH   &kp BSLH
     &kp PAUSE_BREAK &kp LALT   &kp LGUI    &kp LARW   &kp RARW                                               &kp DARW   &kp UARW   &kp RGUI    &kp RALT   &kp PSCRN
-                                                                &kp F7     &kp F8     &kp F11    &kp F10
-                                                                           &kp F9     &kp F12
-                                                     &kp SPACE  &kp BSPC                         &lt 2 RET  &kp LSHFT 
-                                                                           &lt 3 DEL  &lt 1 DEL
+                                                                 &kp F7     &kp F8     &kp F11    &kp F10
+                                                                            &kp F9     &kp F12
+                                                      &kp LSHFT  &lt 2 RET                        &kp BSPC   &kp SPACE 
+                                                                            &lt 3 DEL  &lt 1 DEL
                         >;
                 };
 
@@ -47,10 +46,10 @@
     &trans          &none      &kp NUM_4   &kp NUM_5  &kp NUM_6  &kp PLUS                         &none      &none      &none      &none       &none      &none
     &trans          &none      &kp NUM_1   &kp NUM_2  &kp NUM_3  &kp DOT    &none      &none      &none      &none      &none      &none       &none      &none
     &trans          &none      &kp BSLH    &kp NUM_0  &kp ASTRK                                              &none      &none      &none       &none      &none
-                                                                &none      &none      &none      &none
-                                                                           &none      &none
-                                                     &trans     &trans                           &trans     &trans
-                                                                           &trans     &trans
+                                                                 &none      &none      &none      &none
+                                                                            &none      &none
+                                                      &trans     &trans                           &trans     &trans
+                                                                            &trans     &trans
                         >;
                 };
 
@@ -58,14 +57,14 @@
                         bindings = <
     &bootloader
     &none           &none      &none       &none      &none      &none      &to 3      &to 1      &none      &none      &none      &none       &none      &none
-    &none           &kp F9     &kp F10     &kp F11    &kp F12    &none      &kp LPAR   &kp RPAR   &none      &none      &none      &none       &none      &none
-    &none           &kp F5     &kp F6      &kp F7     &kp F8     &none                            &none      &none      &none      &none       &none      &none
-    &none           &kp F1     &kp F2      &kp F3     &kp F4     &none      &none      &none      &none      &none      &none      &none       &none      &none
+    &none           &none      &none       &none      &none      &none      &kp LPAR   &kp RPAR   &none      &kp F9     &kp F10    &kp F11     &kp F12    &none
+    &none           &none      &none       &none      &none      &none                            &none      &kp F5     &kp F6     &kp F7      &kp F8     &none
+    &none           &none      &none       &none      &none      &none      &none      &none      &none      &kp F1     &kp F2     &kp F3      &kp F4     &none
     &none           &none      &none       &none      &none                                                  &none      &none      &none       &none      &none
-                                                                &none      &none      &none      &none
-                                                                           &none      &none
-                                                     &trans     &trans                           &trans     &trans
-                                                                           &trans     &trans
+                                                                 &none      &none      &none      &none
+                                                                            &none      &none
+                                                      &trans     &trans                           &trans     &trans
+                                                                            &trans     &trans
                         >;
                 };
                 
@@ -80,8 +79,8 @@
     &none           &none      &none       &none      &none                                                  &kp C_RW     &kp C_FF     &none      &none      &none
                                                                  &none      &none      &none      &none
                                                                             &none      &none
-                                                     &trans     &trans                           &kp C_MUTE &kp C_PLAY_PAUSE
-                                                                           &trans     &kp C_STOP
+                                                      &trans     &trans                           &kp C_MUTE &kp C_PLAY_PAUSE
+                                                                            &trans     &kp C_STOP
                         >;
                 };
 
