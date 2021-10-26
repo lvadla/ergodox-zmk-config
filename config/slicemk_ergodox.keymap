@@ -34,8 +34,8 @@
     &kp PAUSE_BREAK &kp LALT   &kp LGUI    &kp LARW   &kp RARW                                               &kp DARW   &kp UARW   &kp RGUI    &kp RALT   &kp PSCRN
                                                                  &kp F7     &kp F8     &kp F11    &kp F10
                                                                             &kp F9     &kp F12
-                                                      &kp SPACE  &kp LSHFT                        &lt 2 RET  &lt 1 BSPC   
-                                                                            &lt 3 DEL  &kp DEL
+                                                      &kp SPACE  &kp LSHFT                        &kp BSPC   &lt 2 RET   
+                                                                            &lt 3 DEL  &lt 1 DEL
                         >;
                 };
 
