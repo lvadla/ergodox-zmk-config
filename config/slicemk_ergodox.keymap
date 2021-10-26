@@ -4,7 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &lt {
-        tapping-term-ms = <125>;
+        tapping-term-ms = <350>;
+        flavor = "tap-preferred";
 };
 
 / {
@@ -13,8 +14,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 label = "HOMEROW_MODS";
                 #binding-cells = <2>;
-                tapping-term-ms = <125>;
-                quick-tap-ms = <0>;
+                tapping-term-ms = <350>;
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
             };
