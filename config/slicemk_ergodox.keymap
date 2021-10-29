@@ -35,7 +35,7 @@
     &kp ESC         &kp A      &kp S     &hm LALT D &hm LGUI F &kp G                                        &kp H      &kp J        &kp K        &kp L       &kp SEMI        &kp APOS
     &kp LCTRL       &kp Z      &kp X     &kp C      &kp V      &kp B      &kp LBKT               &kp RBKT   &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH        &kp DEL
     &kp PAUSE_BREAK &kp LALT   &kp LGUI  &kp LARW   &kp RARW                                                           &kp DARW     &kp UARW     &kp RGUI    &kp RALT        &kp RCTRL
-                                                               &mo 3      &mo 2                  &none      &none
+                                                               &mo 2      &mo 1                  &none      &none
                                                                           &kp PGUP               &kp HOME
                                                     &kp LSHFT  &kp BSPC                                     &kp RET   &kp SPACE
                                                                           &kp PGDN               &kp END
@@ -81,7 +81,7 @@
     &kp ESC         &kp A      &kp S     &hm LALT D &hm LGUI F &kp G                                        &kp H      &kp J        &kp K        &kp L       &kp SEMI        &kp APOS
     &kp LCTRL       &kp Z      &kp X     &kp C      &kp V      &kp B      &kp LBKT               &kp RBKT   &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH        &kp DEL
     &kp M           &kp LALT   &kp LGUI  &kp LARW   &kp RARW                                                           &kp DARW     &kp UARW     &kp RGUI    &kp RALT        &kp RCTRL
-                                                               &mo 3      &mo 2                  &none      &none
+                                                               &mo 2      &mo 1                  &none      &none
                                                                           &kp PGUP               &kp HOME
                                                     &kp LSHFT  &kp BSPC                                     &kp RET   &kp SPACE
                                                                           &kp PGDN               &kp END
