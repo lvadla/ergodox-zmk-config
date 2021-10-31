@@ -13,8 +13,8 @@
     &kp GRAV     &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp NUM_4  &kp NUM_5   &kp PSCRN           &kp PAUSE_BREAK  &kp NUM_6  &kp NUM_7    &kp NUM_8    &kp NUM_9   &kp NUM_0       &kp MINUS
     &kp TAB      &kp Q      &kp W     &kp E      &kp R      &kp T       &kp LBKT            &kp RBKT         &kp Y      &kp U        &kp I        &kp O       &kp P           &kp EQUAL
     &kp ESC      &kp A      &kp S     &kp D      &kp F      &kp G                                            &kp H      &kp J        &kp K        &kp L       &kp SEMI        &kp APOS
-    &kp LCTRL    &kp Z      &kp X     &kp C      &kp V      &kp B       &none               &to 1            &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH        &kp BSLH
-    &kp DEL      &kp LALT   &kp LGUI  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RCTRL   &kp RALT        &none 
+    &kp LGUI     &kp Z      &kp X     &kp C      &kp V      &kp B       &none               &to 1            &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH        &kp BSLH
+    &kp DEL      &kp LCTRL  &kp LALT  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RALT    &kp RCTRL       &none 
                                                             &mo 2       &mo 1               &none            &none
                                                                         &kp PGUP            &kp HOME
                                                  &kp LSHFT  &kp BSPC                                         &kp RET    &kp SPACE
