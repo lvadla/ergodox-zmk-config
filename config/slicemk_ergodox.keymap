@@ -3,22 +3,22 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-/ {        
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp GRAV     &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp NUM_4  &kp NUM_5   &kp PSCRN           &kp PAUSE_BREAK  &kp NUM_6  &kp NUM_7    &kp NUM_8    &kp NUM_9   &kp NUM_0   &mt LCTRL MINUS
-    &kp TAB      &kp Q      &kp W     &kp E      &kp R      &kp T       &kp LBKT            &kp RBKT         &kp Y      &kp U        &kp I        &kp O       &kp P       &mt LGUI  EQUAL
-    &lt 3 ESC    &kp A      &kp S     &kp D      &kp F      &kp G                                            &kp H      &kp J        &kp K        &kp L       &kp SEMI    &mt LALT  APOS
-    &kp BSPC     &kp Z      &kp X     &kp C      &kp V      &kp B       &none               &to 1            &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH    &kp BSLH
-    &kp LCTRL    &kp LALT   &kp LGUI  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RGUI    &kp RALT    &kp RCTRL
-                                                            &mo 2       &mo 1               &none            &none
-                                                                        &kp PGUP            &kp HOME
-                                                 &kp LSHFT  &kp DEL                                          &kp RET    &kp SPACE
-                                                                        &kp PGDN            &kp END
+    &kp GRAV     &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp NUM_4  &kp NUM_5   &kp PSCRN           &kp PAUSE_BREAK  &kp NUM_6  &kp NUM_7    &kp NUM_8    &kp NUM_9   &kp NUM_0   &mt LCTL MINUS
+    &kp TAB      &kp Q      &kp W     &kp E      &kp R      &kp T       &kp LBKT            &kp RBKT         &kp Y      &kp U        &kp I        &kp O       &kp P       &mt LGUI EQUAL
+    &lt 3 ESC    &kp A      &kp S     &kp D      &kp F      &kp G                                            &kp H      &kp J        &kp K        &kp L       &kp SEMI    &mt LALT APOS
+    &kp DEL      &kp Z      &kp X     &kp C      &kp V      &kp B       &none               &to 1            &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH    &mt LC(LG(LALT)) RET
+    &kp LCTL     &kp LALT   &kp LGUI  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RGUI    &kp RALT    &kp RCTL
+                                                            &mo 2       &mo 1               &kp F11          &kp F12
+                                                                        &kp LCTL            &kp F10
+                                                 &kp LSFT   &kp LGUI                                         &kp BSPC   &kp SPC
+                                                                        &kp LALT            &kp F9
                         >;
                 };
 
