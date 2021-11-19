@@ -25,9 +25,9 @@
     &bootloader
     &kp GRAV     &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp NUM_4  &kp NUM_5   &kp PSCRN           &kp PAUSE_BREAK  &kp NUM_6  &kp NUM_7    &kp NUM_8    &kp NUM_9   &kp NUM_0   &mt LCTL MINUS
     &kp TAB      &kp Q      &kp W     &kp E      &kp R      &kp T       &kp LBKT            &kp RBKT         &kp Y      &kp U        &kp I        &kp O       &kp P       &mt LGUI EQUAL
-    &lt 3 ESC    &kp A      &kp S     &kp D      &kp F      &kp G                                            &kp H      &kp J        &kp K        &kp L       &kp SEMI    &mt LALT APOS
-    &kp DEL      &kp Z      &kp X     &kp C      &kp V      &kp B       &none               &to 1            &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH    &mt LC(LG(LALT)) RET
-    &kp LCTL     &kp LALT   &kp LGUI  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RGUI    &kp RALT    &kp RCTL
+    &lt 3 ESC    &kp A      &kp S     &kp D      &kp F      &kp G                                            &kp H      &kp J        &kp K        &kp L       &kp SEMI    &mt LALT RET
+    &kp DEL      &kp Z      &kp X     &kp C      &kp V      &kp B       &none               &to 1            &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH    &mt LC(LG(LALT)) DEL
+    &none        &kp LCTL   &kp LALT  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RALT    &kp RCTL    &none
                                                             &mo 2       &mo 1               &kp F11          &kp F12
                                                                         &kp LCTL            &kp F10
                                                  &kp LSFT   &kp LGUI                                         &kp BSPC   &kp SPC
@@ -70,10 +70,10 @@
                         bindings = <
     &bootloader
     &none        &none      &none     &none      &none      &none       &none               &none            &none      &none        &none        &none       &none       &none
-    &none        &none      &none     &none      &none      &kp HOME    &kp LPAR            &kp RPAR         &none      &kp PGUP     &none        &none       &none       &none
-    &none        &none      &none     &kp PGDN   &none      &kp END                                          &none      &none        &none        &none       &none       &none
-    &none        &none      &none     &none      &none      &none       &to 2               &none            &none      &none        &none        &none       &none       &none
-    &none        &none      &none     &none      &kp BSLH                                                               &none        &none        &none       &none       &none
+    &none        &none      &none     &none      &none      &kp HOME    &kp LPAR            &kp RPAR         &none      &kp PGUP     &none        &none       &kp PIPE    &none
+    &none        &none      &none     &kp PGDN   &none      &kp END                                          &none      &none        &none        &none       &none       &kp APOS
+    &none        &none      &none     &none      &none      &none       &to 2               &none            &none      &none        &none        &none       &kp BSLH    &none
+    &none        &none      &none     &none      &none                                                                  &none        &none        &none       &none       &none
                                                             &none       &none               &none            &none
                                                                         &none               &none
                                                  &none      &none                                            &none      &none
