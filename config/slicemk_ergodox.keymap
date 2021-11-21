@@ -30,7 +30,7 @@
     &kp GRAV     &kp NUM_1  &kp NUM_2 &kp NUM_3  &kp NUM_4  &kp NUM_5   &kp PSCRN           &kp PAUSE_BREAK  &kp NUM_6  &kp NUM_7    &kp NUM_8    &kp NUM_9   &kp NUM_0   &SPOT MINUS
     &kp TAB      &kp Q      &kp W     &kp E      &kp R      &kp T       &kp LBKT            &kp RBKT         &kp Y      &kp U        &kp I        &kp O       &kp P       &RTYM EQUAL
     &lt 3 ESC    &kp A      &kp S     &kp D      &kp F      &kp G                                            &kp H      &kp J        &kp K        &kp L       &kp SEMI    &FFOX RET
-    &kp LCTL     &kp Z      &kp X     &kp C      &kp V      &kp B       &kp PG_DN           &kp PG_UP        &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH    &MPV  DEL
+    &kp LCTL     &kp Z      &kp X     &kp C      &kp V      &kp B       &kp PG_UP           &kp PG_DN        &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH    &MPV  DEL
     &none        &kp LCTL   &kp LALT  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RALT    &kp RCTL    &to 1
                                                             &mo 2       &none               &none            &mo 1
                                                                         &none               &none
@@ -76,7 +76,7 @@
     &none        &none      &none     &none      &none      &none       &none               &none            &none      &none        &none        &none       &none       &none
     &none        &kp DQT    &none     &none      &none      &none       &kp LPAR            &kp RPAR         &none      &none        &none        &none       &kp PIPE    &none
     &none        &kp APOS   &none     &none      &none      &none                                            &none      &none        &none        &none       &none       &none
-    &none        &none      &none     &none      &none      &none       &kp END             &kp HOME         &none      &none        &none        &none       &kp BSLH    &none
+    &none        &none      &none     &none      &none      &none       &kp HOME            &kp END          &none      &none        &none        &none       &kp BSLH    &none
     &to 2        &none      &none     &none      &none                                                                  &none        &none        &none       &none       &none
                                                             &none       &none               &none            &none
                                                                         &none               &none
