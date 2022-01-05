@@ -35,7 +35,7 @@
     &none        &kp LCTL   &kp LALT  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RALT    &kp RCTL    &to 1
                                                             &mo 2       &none               &none            &mo 1
                                                                         &none               &none
-                                                 &kp LGUI   &kp LSFT                                         &bsdel     &kp SPC
+                                                 &kp LSFT   &bsdel                                           &kp LGUI   &kp SPC
                                                                         &none               &none
                         >;
                 };
