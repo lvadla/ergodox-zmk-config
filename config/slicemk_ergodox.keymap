@@ -12,7 +12,6 @@
 
 / {
         behaviors {        
-
                 bsdel: backspace_del {
                         compatible = "zmk,behavior-mod-morph";
                         label = "BACKSPACE_DEL";
@@ -35,7 +34,7 @@
     &none        &kp LCTL   &kp LALT  &kp LARW   &kp RARW                                                               &kp DARW     &kp UARW     &kp RALT    &kp RCTL    &to 1
                                                             &mo 3       &none               &none            &mo 1
                                                                         &none               &none
-                                                 &kp DEL    &kp LSFT                                         &kp SPC    &kp BSPC
+                                                 &kp LSFT   &kp LCTL                                         &bsdel     &kp SPC
                                                                         &none               &none
                         >;
                 };
