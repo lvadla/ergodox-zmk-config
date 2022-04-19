@@ -29,15 +29,44 @@
 &bootloader
 &kp GRAV    &kp N1     &kp N2    &kp N3     &kp N4     &kp N5     &kp PSCRN          &kp PAUSE   &kp N6     &kp N7       &kp N8       &kp N9      &kp N0     &kp MINUS
 &kp TAB     &kp Q      &kp W     &kp E      &kp R      &kp T      &kp LBKT           &kp RBKT    &kp Y      &kp U        &kp I        &kp O       &kp P      &kp EQUAL
-&lt 2 ESC   &kp A      &kp S     &kp D      &kp F      &kp G                                     &kp H      &kp J        &kp K        &kp L       &kp SEMI   &kp APOS
+&kp ESC     &kp A      &kp S     &kp D      &kp F      &kp G                                     &kp H      &kp J        &kp K        &kp L       &kp SEMI   &kp APOS
 &sk LGUI    &kp Z      &kp X     &kp C      &kp V      &kp B      &kp PG_UP          &kp PG_DN   &kp N      &kp M        &kp CMMA     &kp DOT     &kp FSLH   &kp RET
 &none       &kp LCTL   &kp LALT  &kp LARW   &kp RARW                                                        &kp DARW     &kp UARW     &kp RALT    &kp RCTL   &to 1
-                                                       &none      &none              &kp MENU    &sl 1
+                                                       &none      &none              &kp MENU    &mo 1
                                                                   &none              &none
                                             &sk LSFT   &sk LCTL                                  &kp BSPC   &kp SPC
                                                                   &none              &none
                         >;
                 };
-                         
+                                
+                layer_1 {
+                        bindings = <
+&bootloader
+&none       &none      &none     &none      &none      &none      &none              &none       &none      &none        &none        &none       &none      &out OUT_TOG
+&none       &kp F9     &kp F10   &kp F11    &kp F12    &none      &none              &none       &none      &none        &none        &none       &none      &none
+&none       &kp F5     &kp F6    &kp F7     &kp F8     &none                                     &none      &none        &none        &none       &none      &none
+&none       &kp F1     &kp F2    &kp F3     &kp F4     &none      &none              &none       &none      &none        &none        &none       &none      &none
+&to 0       &none      &none     &none      &none                                                           &none        &none        &none       &none      &to 2
+                                                       &none      &none              &none       &none
+                                                                  &none              &none
+                                            &none      &none                                     &none      &none
+                                                                  &none              &none
+                        >;
+                };
+
+                layer_2 {
+                        bindings = <
+&bootloader
+&trans      &none      &none     &none      &none      &none      &none              &none       &none      &none        &none        &none       &none      &trans
+&trans      &none      &none     &none      &none      &none      &kp LPAR           &kp RPAR    &none      &none        &none        &none       &kp PIPE   &trans
+&trans      &none      &none     &none      &none      &none                                     &none      &none        &none        &none       &none      &trans
+&trans      &none      &none     &none      &none      &none      &kp HOME           &kp END     &none      &none        &none        &none       &kp BSLH   &trans
+&to 1       &trans     &trans    &trans     &trans                                                          &trans       &trans       &trans      &trans     &none
+                                                       &none      &none              &none       &none
+                                                                  &none              &none
+                                            &none      &none                                     &none      &none
+                                                                  &none              &none
+                        >;
+                };      
         };
 };
