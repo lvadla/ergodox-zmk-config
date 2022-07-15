@@ -32,7 +32,7 @@
 &none       &kp LCTL  &kp LALT  &kp DARW  &kp UARW                                                      &kp LARW  &kp RARW  &kp RALT  &kp RCTL       &to 1
                                                     &kp LS(F10)&kp LC(LG(Q))      &kp C_PREV &kp C_NEXT
                                                                &none              &none
-                                          &sk LSFT  &sk LCTL                                 &kp BSPC   &kp SPC
+                                          &sk LSFT  &kp BSPC                                 &kp SPC   &sk LCTL
                                                                &none              &sl 1
                         >;
                 };
