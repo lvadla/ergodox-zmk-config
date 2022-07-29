@@ -11,10 +11,6 @@
     /delete-property/ quick-release;
 };
 
-&sl {
-    release-after-ms = <4000>;
-};
-
 / {
         behaviors {
             ht: hold_tap {
@@ -43,7 +39,7 @@
                                                     &kp LS(F10)&kp LC(LG(Q))      &kp C_PREV &kp C_NEXT
                                                                &none              &none
                                        &ht HYPE SPC &sk LSFT                                 &sk LCTL   &kp BSPC
-                                                               &none              &sl 1
+                                                               &none              &mo 1
                         >;
                 };
 
