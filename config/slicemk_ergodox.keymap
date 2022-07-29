@@ -16,6 +16,18 @@
 };
 
 / {
+        behaviors {
+            ht: hold_tap {
+                compatible = "zmk,behavior-hold-tap";
+                label = "HOLD_TAP";
+                #binding-cells = <2>;
+                tapping-term-ms = <150>;
+                quick-tap-ms = <0>;
+                flavor = "tap-preferred";
+                bindings = <&kp>, <&kp>;
+            };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -29,7 +41,7 @@
 &none       &kp LCTL  &kp LALT  &kp DARW  &kp UARW                                                      &kp LARW  &kp RARW  &kp RALT  &kp RCTL       &to 1
                                                     &kp LS(F10)&kp LC(LG(Q))      &kp C_PREV &kp C_NEXT
                                                                &none              &none
-                                       &mt HYPE SPC &sk LSFT                                 &sk LCTL   &kp BSPC
+                                       &ht HYPE SPC &sk LSFT                                 &sk LCTL   &kp BSPC
                                                                &none              &sl 1
                         >;
                 };
