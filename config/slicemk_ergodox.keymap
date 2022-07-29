@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define PAUSE PAUSE_BREAK
+#define HYPE LG(LS(LA(LCTRL)))
 
 &sk {
     release-after-ms = <2000>;
@@ -28,7 +29,7 @@
 &none       &kp LCTL  &kp LALT  &kp DARW  &kp UARW                                                      &kp LARW  &kp RARW  &kp RALT  &kp RCTL       &to 1
                                                     &kp LS(F10)&kp LC(LG(Q))      &kp C_PREV &kp C_NEXT
                                                                &none              &none
-                                          &sk LSFT  &kp BSPC                                 &kp SPC   &sk LCTL
+                                       &mt HYPE SPC &sk LSFT                                 &sk LCTL   &kp BSPC
                                                                &none              &sl 1
                         >;
                 };
