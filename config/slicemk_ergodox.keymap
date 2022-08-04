@@ -26,14 +26,14 @@
                 layer_0 {
                         bindings = <
 &bootloader
-&kp GRAV    &kp N1    &kp N2    &kp N3     &kp N4     &kp N5     &kp PSCRN       &kp PAUSE  &kp N6     &kp N7    &kp N8    &kp KP_N9 &kp KP_N0  &kp MINUS
+&lt 2 ESC   &kp N1    &kp N2    &kp N3     &kp N4     &kp N5     &kp PSCRN       &kp PAUSE  &kp N6     &kp N7    &kp N8    &kp N9    &kp N0     &kp MINUS
 &kp TAB     &kp Q     &kp W     &kp E      &kp R      &kp T      &kp LBKT        &kp RBKT   &kp Y      &kp U     &kp I     &kp O     &kp P      &kp EQUAL
-&lt 2 ESC   &kp A     &kp S     &kp D      &kp F      &kp G                                 &kp H      &kp J     &kp K     &kp L     &kp SEMI    &kp APOS
+&kp BSPC    &kp A     &kp S     &kp D      &kp F      &kp G                                 &kp H      &kp J     &kp K     &kp L     &kp SEMI    &kp APOS
 &kp LGUI    &kp Z     &kp X     &kp C      &kp V      &kp B      &kp PG_UP       &kp PG_DN  &kp N      &kp M     &kp CMMA  &kp DOT   &kp FSLH     &kp RET
 &none       &kp LCTL  &kp LALT  &kp DARW   &kp UARW                                                    &kp LARW  &kp RARW  &kp RALT  &kp RCTL       &to 1
                                                       &kp LS(F10)&kp LC(LG(Q))   &kp C_PREV &kp C_NEXT
                                                                  &none           &none
-                                         &mt HYPE SPC &sk LSFT                              &sk LCTL   &kp BSPC
+                                         &mt HYPE SPC &sk LALT                              &sk LCTL   &sk LSFT
                                                                  &none           &mo 1
                         >;
                 };
@@ -57,13 +57,13 @@
                         bindings = <
 &bootloader
 &trans      &none     &none     &none     &none     &none      &none             &none      &none      &none     &none     &none     &none         &trans
-&trans      &none     &none     &none     &none     &none      &kp LPAR          &kp RPAR   &none      &none     &none     &none     &kp PIPE      &trans
-&trans      &none     &none     &none     &none     &none                                   &none      &none     &none     &none     &none         &trans
+&trans      &none     &none     &none     &none     &kp TILDE  &kp LPAR          &kp RPAR   &none      &none     &none     &none     &kp PIPE      &trans
+&kp DEL     &none     &none     &none     &none     &kp GRAVE                               &none      &none     &none     &none     &none         &trans
 &trans      &none     &none     &none     &none     &none      &kp HOME          &kp END    &none      &none     &none     &none     &kp BSLH      &trans
 &to 1       &trans    &trans    &trans    &trans                                                       &trans    &trans    &trans    &trans         &none
                                                     &none      &none             &none      &none
                                                                &none             &none
-                                          &none     &kp DEL                                 &none    &none
+                                          &none     &none                                   &none    &none
                                                                &none             &none
                         >;
                 };
